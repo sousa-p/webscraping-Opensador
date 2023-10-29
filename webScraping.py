@@ -5,13 +5,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 
-'''
-É necessario instalar a versão mais recente do ChromeDriver em:
-https://chromedriver.chromium.org/
-
-Deixe na pasta raiz do projeto
-'''
-
 def get_quotes(url, max_len_quote=120):
     quotes = []
     page_number = 1
